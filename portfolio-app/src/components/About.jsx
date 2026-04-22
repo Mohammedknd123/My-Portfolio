@@ -47,7 +47,7 @@ const About = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-                I am a passionate Full Stack Developer based in Oran, Algeria. My mission 
+                I am a passionate Full Stack Developer and an actual Computer Science Student at The Higher School of CS in Sidi Bel Abbes , based in Mascara, Algeria. My mission 
                 is to build web applications that are not only powerful but also intuitive 
                 and visually stunning.
               </motion.p>

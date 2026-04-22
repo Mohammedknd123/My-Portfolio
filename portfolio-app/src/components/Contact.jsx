@@ -51,7 +51,7 @@ const Contact = () => {
         >
           <h2 className="display-lg text-5xl mb-8">Let's build <br /> something <br /> intentional.</h2>
           <p className="body-lg text-canvas-text/70 mb-12">
-            Currently based in Oran, Algeria. <br />
+            Currently based in Mascara, Algeria. <br />
             Reach out to discuss your next modern web experience.
           </p>
           <div className="space-y-4">
