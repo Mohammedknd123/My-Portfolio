@@ -21,7 +21,7 @@ const Contact = () => {
     setStatus('sending');
 
     emailjs.sendForm(
-      'service_dlb4n38',
+      'service_p0pix3o',
       'template_vrktam5',
       form.current,
       'nL36Lc4H2OxFW80dx'
