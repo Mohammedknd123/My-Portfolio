@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link id="favicon" rel="icon" type="image/x-icon" href="/favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Yacine Kendouci | Portfolio</title>
+    <script>
+      // Ultimate Script to force a circular favicon from a square image
+      window.addEventListener('load', () => {
+        const img = new Image();
+        img.src = '/favicon.jpg';
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          const size = 64; // High resolution favicon
+          canvas.width = size;
+          canvas.height = size;
+
+          // Create circular clip
+          ctx.beginPath();
+          ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.clip();
+
+          // Draw image
+          ctx.drawImage(img, 0, 0, size, size);
+
+          // Update favicon
+          const link = document.getElementById('favicon');
+          link.href = canvas.toDataURL('image/png');
+          link.type = 'image/png';
+        };
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index-Dlwxc7Zj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BhNSnRS5.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
