@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Code } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Projects = () => {
@@ -90,7 +90,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="bg-canvas-surface-lowest text-canvas-text p-3 rounded-full hover:bg-canvas-primary hover:text-white transition-all shadow-lg"
                   >
-                    <Github className="w-6 h-6" />
+                    <Code className="w-6 h-6" />
                   </a>
                 </div>
               </div>
